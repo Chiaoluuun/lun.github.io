@@ -1,0 +1,388 @@
+/* Home */
+
+@font-face {
+    font-family: SweiGothicCJKtc-Medium;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Medium.woff2) format("woff2")
+    , url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Medium.woff) format("woff");
+  }
+
+html{
+    background-color: #fffff0;
+    width: 1920px;
+    height: 3515px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: SweiGothicCJKtc-Medium;
+}
+
+body{
+    background-color: #fffff0;
+    width: 20px;
+    height: 20px;
+}
+
+
+.container{
+    position: absolute;
+    background-color: #fffff0;
+    width: 3515px;
+    padding-left: 0px;
+}
+
+
+.pic{
+    width:400px; 
+    height:350px;overflow:hidden;
+}
+
+.pic img{
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+}
+.pic img:hover{
+    transform:scale(1.2,1.2);
+}
+
+.cover{
+    position: absolute;
+    width: 1910px;
+    height: 1043.15px;
+    top: 0px;
+}
+
+.logobox{
+    position: absolute;
+    width: 1024px;
+    height: 136px;
+}
+
+.logo{
+    position: absolute;
+    width: 287.51px;
+    height: 261.36px;
+    left: 816px;
+    top: 1190px;
+}
+
+.text_00{
+    position: absolute;
+    width: 1200px;
+    height: 136px;
+    left: 448px;
+    top: 1525px;
+    font-size: 30px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.275em;
+    color: #3c6432;
+}
+
+.introduction{
+    position: absolute;
+    width: 1920px;
+    height: 1031.66px;
+    top: 1800px;
+}
+
+.products{
+    position: absolute;
+    width: 353px;
+    height: 80px;
+    left: 100px;
+    top: 1901px;
+}
+.products_text{
+    position: absolute;
+    width: 317px;
+    height: 129px;
+}
+
+.text_01{
+    position: absolute;
+    width: 750px;
+    height: 137.5px;
+    left: 130px;
+    top: 1990px;
+    /*font-family: Arial;
+    font-weight: 900;*/
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.275em;
+    color: #fffff0
+}
+
+.news{
+    position: absolute;
+    width: 353.38px;
+    height: 79.58px;
+    left: 531px;
+    top: 2468px;
+}
+
+.news_text{
+    position: absolute;
+    width: 353.38px;
+    height: 79.58px;
+}
+
+.text_02{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 555px;
+    top: 2595px;
+    /*font-family: Arial;
+    font-weight: 900;*/
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.275em;
+    color: #fffff0
+}
+
+.vip{
+    position: absolute;
+    width: 353.38px;
+    height: 79.58px;
+    left: 1491px;
+    top: 2468px;
+}
+
+.vip_text{
+    position: absolute;
+    width: 353.38px;
+    height: 79.58px;
+}
+.text_03{
+    position: absolute;
+    width: 350px;
+    height: 93px;
+    left: 1512px;
+    top: 2595px;
+    /*font-family: Arial;
+    font-weight: 900;*/
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.275em;
+    color: #fffff0;
+}
+
+
+.footer_box{
+    position: absolute;
+    width: 1910px;
+    height: 452.7px;
+    top: 3070px;
+}
+
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 452.7px;
+}
+
+.logo_text{
+    position: absolute;
+    width: 434.72px;
+    height: 95px;
+    left: 130px;
+    top: 120px;
+}
+
+.shop{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1430px;
+    top: 120px;
+}
+
+.fb{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1555px;
+    top: 120px;
+}
+
+.ig{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1680px;
+    top: 120px;
+}
+
+
+        /*當尺寸最大為768px*/
+@media screen and (max-width: 768px) {
+
+    html{
+        width: 768px;
+        height: 1730px;
+    }
+
+    body{
+        background-color: #fffff0;
+        width: 200px;
+        height: 1730px;
+    }
+
+    .container{
+        background-color: #fffff0;
+        width: 768px;
+        height: 1730px;
+        padding: 0px;
+    }
+
+    .cover{
+        width: 768px;
+        height: 500px;         
+    }
+
+    .logo{
+        width: 180px;
+        height: 160px;
+        left: 295px;
+        top: 560px;
+    }
+
+    .logobox{
+        width: 768px;
+        height: 136px;
+    }
+    
+    .text_00{
+        width: 500px;
+        height: 136px;
+        left: 150px;
+        top: 760px;
+        font-size: 14px;
+        line-height: 35px;
+        letter-spacing: 0.175em;
+    }
+
+    .introduction{
+        width: 768px;
+        height: 480px;
+        top: 950px;
+    }
+    
+    .products{
+        width: 142px;
+        height: 32px;
+        left: 50px;
+        top: 1000px;
+    }
+    .products_text{
+        width: 317px;
+        height: 129px;
+    }
+    
+    .text_01{
+        width: 400px;
+        height: 137.5px;
+        left: 60px;
+        top: 1010px;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+    }
+
+    .news{
+        width: 142px;
+        height: 32px;
+        left: 210px;
+        top: 1250px;
+    }
+    
+    .news_text{
+        width: 353.38px;
+        height: 79.58px;
+    }
+    
+    .text_02{
+        width: 120px;
+        height: 100px;
+        left: 220px;
+        top: 1290px;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+    }
+
+    .vip{
+        width: 142px;
+        height: 32px;
+        left: 600px;
+        top: 1250px;
+    }
+    
+    .vip_text{
+        width: 353.38px;
+        height: 79.58px;
+    }
+
+    .text_03{
+        width: 120px;
+        height: 150px;
+        left: 610px;
+        top: 1265px;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.2em;
+    }
+
+    .footer{
+        width: 768px;
+        height: 180px;
+    }
+
+    .footer_box{
+        width: 768px;
+        height: 180px;
+        top:  1550px;
+    }
+
+    .logo_text{
+        position: absolute;
+        width: 182.6px;
+        height: 40px;
+        left: 45px;
+        top: 45px;
+    }
+
+    .shop{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 550px;
+        top: 48px;
+    }
+
+    .fb{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 595px;
+        top: 48px;
+    }
+
+    .ig{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 640px;
+        top: 48px;
+    }
+}

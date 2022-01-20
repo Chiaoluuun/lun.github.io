@@ -1,0 +1,529 @@
+/* Products */
+
+@font-face {
+    font-family: SweiGothicCJKtc-Medium;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Medium.woff2) format("woff2")
+    , url(https://cdn.jsdelivr.net/gh/max32002/swei-gothic@2.129/WebFont/CJK%20TC/SweiGothicCJKtc-Medium.woff) format("woff");
+  }
+
+
+html{
+    background-color: #fffff0;
+    width: 1920px;
+    height: 3515px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: SweiGothicCJKtc-Medium;
+}
+
+body{
+    background-color: #fffff0;
+    width: 920px;
+    height: 3515px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    background-color: #fffff0;
+    width: 1980px;
+    height: 3515px;
+    padding-left: 0px;
+}
+
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 85.039px;
+    top: 37px;
+}
+
+.type_box{
+    position: absolute;
+}
+
+.top_box{
+    position: absolute;
+}
+
+.top_box img:hover {
+	opacity: 0.5;
+}
+
+.logo_word{
+    position: absolute;
+    width: 511.44px;
+    height: 142.73px;
+    left: 40px;
+    top: 249px;
+}
+
+.nav{
+    position: absolute;
+    width: 1100px;
+    height: 120.236px;
+    left: 750px;
+    top: 220px;
+}
+
+.nav img:hover {
+	opacity: 0.5;
+}
+
+
+.home{
+    position: absolute;
+    margin: 50px;
+    height: 120.236px;
+}
+
+.news{
+    position: absolute;
+    margin: 50px;
+    height: 120.236px;
+    left: 225px;
+}
+
+.products{
+    position: absolute;
+    margin: 50px;
+    height: 120.236px;
+    left: 450px;
+}
+
+.vip{
+    position: absolute;
+    margin: 50px;
+    height: 120.236px;
+    left: 670px;
+}
+
+.about{
+    position: absolute;
+    margin: 50px;
+    height: 120.236px;
+    left: 890px;
+}
+
+.content{
+    position: absolute;
+    width: 230.712px;
+    height: 1400px;
+    left: 110px;
+    top: 750px;
+}
+
+
+.center_box img:hover {
+	opacity: 0.5;
+}
+
+
+
+.pic img{
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+}
+
+.pic img:hover{
+    transform:scale(1.2,1.2);
+}
+
+
+.type_logo{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 70px;
+    top: 675px;
+}
+
+.type{
+    position: absolute;
+    width: 300px; 
+}
+
+.type01{
+    position: absolute;
+    width: 230.7px;
+    top: 200px;
+}
+
+.type02{
+    position: absolute;
+    width: 230.7px;
+    top: 350px;
+}
+
+.type03{
+    position: absolute;
+    width: 230.7px;
+    top: 500px;
+}
+
+.type04{
+    position: absolute;
+    width: 230.7px;
+    top: 650px;
+}
+
+.type05{
+    position: absolute;
+    width: 230.7px;
+    top: 800px;
+}
+
+.type06{
+    position: absolute;
+    width: 230.7px;
+    top: 950px;
+}
+
+.type07{
+    position: absolute;
+    width: 230.7px;
+    top: 1100px;
+}
+
+.type08{
+    position: absolute;
+    width: 230.7px;
+    top: 1250px;
+}
+
+.center_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chicken{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 559px;
+    top: 630px;
+}
+
+.fish{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 1224px;
+    top: 630px;
+}
+
+.steak{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 559px;
+    top: 1295px;
+}
+
+.pork{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 1224px;
+    top: 1295px;
+}
+
+.pork_chops{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 559px;
+    top: 1960px;
+}
+
+.sliced_meat{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 1224px;
+    top: 1960px;
+}
+
+.next{
+    position: absolute;
+    width: 187.54px;
+    height: 28.721 px;
+    left: 1550px;
+    top: 2600px;
+}
+
+.footer_box{
+    position: absolute;
+    width: 1920px;
+    height: 452.7px;
+    top: 3070px;
+}
+
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 452.7px;
+}
+
+.logo_text{
+    position: absolute;
+    width: 434.72px;
+    height: 95px;
+    left: 130px;
+    top: 120px;
+}
+
+.shop{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1430px;
+    top: 120px;
+}
+
+.fb{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1555px;
+    top: 120px;
+}
+
+.ig{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1680px;
+    top: 120px;
+}
+
+
+
+        /*當尺寸最大為768px*/
+@media screen and (max-width: 768px){
+    html{
+        background-color: #fffff0;
+        width: 768px;
+        height: 1430px;
+    }
+
+    body{
+        width: 500px;
+        height: 1430px;
+    }
+
+
+    .container{
+        width: 768px;
+        height: 1430px;
+    }
+
+    .header{
+        width: 768px;
+        height: 38px;
+        top: 30px;
+    }
+
+    .type_logo{
+        width: 120px;
+        height: 54px;
+        left: 35px;
+        top: 275px;
+    }
+    
+    .type{
+        width: 120px; 
+    }
+
+    .content{
+        width: 100px;
+        height: 400px;
+        left: 50px;
+        top: 330px;
+    }
+
+    .type01{
+        width: 83px;
+        top: 50px;
+    }
+    
+    .type02{
+        width: 83px;
+        top: 110px;
+    }
+    
+    .type03{
+        width: 83px;
+        top: 170px;
+    }
+    
+    .type04{
+        width: 83px;
+        top: 230px;
+    }
+    
+    .type05{
+        width: 83px;
+        top: 290px;
+    }
+    
+    .type06{
+        width: 83px;
+        top: 350px;
+    }
+    
+    .type07{
+        width: 83px;
+        top: 410px;
+    }
+    
+    .type08{
+        width: 83px;
+        top: 470px;
+    }
+
+    .logo_word{
+        width: 214.8px;
+        height: 60px;
+        left: 15px;
+        top: 115px;
+    }
+
+    .nav{
+        width: 462px;
+        height: 50.5px;
+        left: 285px;
+        top: 100px;
+    }
+    
+    .home{
+        margin: 25px;
+        height: 47px;
+        left: 0px;
+    }
+
+    .news{
+        margin: 25px;
+        height: 47px;
+        left: 85px;
+    }
+
+    .products{
+        margin: 25px;
+        height: 47px;
+        left: 170px;
+    }
+
+    .vip{
+        margin: 25px;
+        height: 47px;
+        left: 255px;
+    }
+
+    .about{
+        margin: 25px;
+        height: 47px;
+        left: 340px;
+    }
+
+    .chicken{
+        width: 237px;
+        height: 237px;
+        left: 230px;
+        top: 250px;
+    }
+    
+    .fish{
+        width: 237px;
+        height: 237px;
+        left: 500px;
+        top: 250px;
+    }
+    
+    .steak{
+        width: 237px;
+        height: 237px;
+        left: 230px;
+        top: 520px;
+    }
+    
+    .pork{
+        width: 237px;
+        height: 237px;
+        left: 500px;
+        top: 520px;
+    }
+    
+    .pork_chops{
+        width: 237px;
+        height: 237px;
+        left: 230px;
+        top: 790px;
+    }
+    
+    .sliced_meat{
+        width: 237px;
+        height: 237px;
+        left: 500px;
+        top: 790px;
+    }
+
+    .next{
+        width: 91px;
+        height: 14px;
+        left: 635px;
+        top: 1060px;
+    }
+
+    .footer{
+        width: 768px;
+        height: 180px;
+    }
+
+    .footer_box{
+        width: 768px;
+        height: 180px;
+        top:  1250px;
+    }
+
+    .logo_text{
+        position: absolute;
+        width: 182.6px;
+        height: 40px;
+        left: 45px;
+        top: 45px;
+    }
+
+    .shop{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 550px;
+        top: 48px;
+    }
+
+    .fb{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 595px;
+        top: 48px;
+    }
+
+    .ig{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 640px;
+        top: 48px;
+    }
+
+}
+
+
